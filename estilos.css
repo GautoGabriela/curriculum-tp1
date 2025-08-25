@@ -1,0 +1,42 @@
+/* CSS DOCUMENT */
+@charset "UTF-8";
+
+p{
+    font-family: "Cardo", system-ui;
+    font-style: normal;
+}
+h1
+{
+ font-family: "Baumans", system-ui;
+ font-style: normal;
+ font-size: 30px;
+ color: rgb(130, 92, 167);
+}
+
+body
+{
+    text-align: center;
+    text-wrap-style: balance;
+}
+
+h3,h2{
+    font-family: "Cardo", system-ui;
+    font-style: italic;
+}
+
+#habilidades{
+    text-align: left;
+}
+#Educación{
+    text-align: left;
+}
+
+#Idiomas{
+    text-align: left;
+}
+
+#Contacto{
+    text-align: right;
+}
+
+
