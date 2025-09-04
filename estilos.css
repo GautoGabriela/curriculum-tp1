@@ -79,14 +79,34 @@ main {
 }
 
 .contenedor {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 20px; 
+    justify-content: space-between;
 }
 
 .box {
-    flex: 1 1 calc(50% - 20px); /* 2 columnas iguales */
+    flex: 1 1 calc(50% - 20px);
   background: #b3a2b4;
   padding: 20px;
   border-radius: 10px;
+}
+
+#Contacto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 31px 0px;
+    background-color: #211D2D;
+    height: 122px;
+    flex-direction: column;
+}
+
+#final {
+    color: #D2C3F6;
+}
+
+#contactos {
+    color: white;
+    text-align: center;
 }
