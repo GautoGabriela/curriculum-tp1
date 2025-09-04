@@ -1,42 +1,92 @@
 /* CSS DOCUMENT */
 @charset "UTF-8";
 
-p{
-    font-family: "Cardo", system-ui;
+body {
+    font-family:"Libre Baskerville", serif;
     font-style: normal;
-}
-h1
-{
- font-family: "Baumans", system-ui;
- font-style: normal;
- font-size: 30px;
- color: rgb(130, 92, 167);
+    font-weight: 400;
+    background-color: #D2C3F6;
 }
 
-body
-{
-    text-align: center;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     text-wrap-style: balance;
+
 }
 
-h3,h2{
-    font-family: "Cardo", system-ui;
+/*aplicaciones*/
+
+h1 {
+    font-family:"Shrikhand", serif;
+    font-style: normal;
+    font-weight: 400;
+    color: #D2C3F6;
+    font-size: 65px;
+}
+
+img {
+    border-radius: 18px;
+    justify-items: center;
+    margin: 32px;
+}
+
+h2 {
+    font-family:"Libre Baskerville",serif;
+    font-style: normal;
+    font-weight: 700;
+    color: #211D2D;
+}
+
+h3 {
+    font-family:"Libre Baskerville", serif;
     font-style: italic;
+    font-weight: 400;
 }
 
-#habilidades{
-    text-align: left;
-}
-#Educación{
-    text-align: left;
-}
-
-#Idiomas{
-    text-align: left;
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 32px;
+    background-color: #211D2D;
+    height: 114px;
 }
 
-#Contacto{
-    text-align: right;
+#Carrera {
+    font-size: 16px;
+    color: #D2C3F6;
 }
 
 
+main {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 4rem;
+    margin: 80px;
+    flex-direction: row;
+}
+
+.Arriba {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.contenedor {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.box {
+    flex: 1 1 calc(50% - 20px); /* 2 columnas iguales */
+  background: #b3a2b4;
+  padding: 20px;
+  border-radius: 10px;
+}
