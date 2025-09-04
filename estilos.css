@@ -24,12 +24,25 @@ h1 {
     font-weight: 400;
     color: #D2C3F6;
     font-size: 65px;
+    line-height: 55px;
 }
 
-img {
-    border-radius: 18px;
+#foto {
     justify-items: center;
     margin: 32px;
+    border: 17px solid #211D2D;
+    border-radius: 50px
+
+}
+
+#sobremi {
+    font-size: 33px;
+line-height: 68px;
+}
+
+p {
+    line-height: 25px;
+    max-width: 500px;
 }
 
 h2 {
@@ -45,20 +58,26 @@ h3 {
     font-weight: 400;
 }
 
+/*acá comienza mi encabezado*/
+
 header {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 16px 32px;
     background-color: #211D2D;
-    height: 114px;
+    height: 140px;
+    gap: 25px;
 }
 
 #Carrera {
     font-size: 16px;
     color: #D2C3F6;
+    line-height: 22px;
+    text-align: right;
 }
 
+/*comienza lo que hay dentro del cuerpo*/
 
 main {
     display: flex;
@@ -70,6 +89,8 @@ main {
     flex-direction: row;
 }
 
+/*el cuadro sobre mi*/
+
 .Arriba {
     display: flex;
     justify-content: center;
@@ -78,6 +99,7 @@ main {
     text-align: center;
 }
 
+/*aca empiezan las cuatro cajas debajo del "aparte de mi"*/
 .contenedor {
     display: flex;
     flex-wrap: wrap; 
@@ -88,9 +110,11 @@ main {
 .box {
     flex: 1 1 calc(50% - 20px);
   background: #b3a2b4;
-  padding: 20px;
+  padding: 40px;
   border-radius: 10px;
 }
+
+/*acá va contenido del footer*/
 
 #Contacto {
     display: flex;
@@ -98,7 +122,7 @@ main {
     justify-content: center;
     padding: 31px 0px;
     background-color: #211D2D;
-    height: 122px;
+    height: 164px;
     flex-direction: column;
 }
 
